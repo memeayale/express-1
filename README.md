@@ -1,2 +1,2 @@
 # express-1
-My first express JS App
+Our first express.js app
