@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newmanix/express-1.git"
+    "url": "git+https://github.com/memeayale/express-1.git"
   },
-  "author": "Bill Newman",
+  "author": "Meskereml Ayale",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/newmanix/express-1/issues"
+    "url": "https://github.com/memeayale/express-1/issues"
   },
-  "homepage": "https://github.com/newmanix/express-1#readme",
+  "homepage": "https://github.com/memeayale/express-1#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
