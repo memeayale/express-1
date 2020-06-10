@@ -4,13 +4,20 @@ var data = require('./data/test.json');
 var app = express();
 const PORT = 3000;
 
-//we can now serve up static pages
-//app.use(express.static(__dirname));
+app.set('view engine','ejs');//sent views to EJS
 
-//this is how a route i sbuild in Express
+//this is how a route is built in Express
 app.get('/', (req,res)=>{
-  res.json(data);
-  
+  var title = "Our Home Page";
+  res.render('pages/index',{title:title});
+});
+
+app.get('/users', (req,res)=>{
+  var title = "Our Home Page";
+  res.render('users/index',{
+    title:title,
+    users:data
+  });
 });
 
 app.listen(PORT,()=>{
