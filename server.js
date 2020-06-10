@@ -8,7 +8,7 @@ const PORT = 3000;
 //app.use(express.static(__dirname));
 
 //this is how a route i sbuild in Express
-app.get('/', (req,rest)=>{
+app.get('/', (req,res)=>{
   res.sent(`App is running on port ${PORT}`);
   
 });
