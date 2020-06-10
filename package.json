@@ -12,13 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/memeayale/express-1.git"
   },
-  "author": "Meskereml Ayale",
+  "author": "Meskerem Ayale",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/memeayale/express-1/issues"
   },
   "homepage": "https://github.com/memeayale/express-1#readme",
   "dependencies": {
+    "ejs": "^3.1.3",
     "express": "^4.17.1"
   }
 }
